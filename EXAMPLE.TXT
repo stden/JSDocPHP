@@ -1,0 +1,23 @@
+/**
+ * MyJS Core Component
+ *
+ * @category   MyJS
+ * @package    MyJS
+ * @subpackage MyJS Core
+ * @desc       Prototype for the MyJS Core object and its methods and properties.
+ *
+ * @param      String
+ * @return     MyJS
+ */
+function MyJS(obj) {
+     /**
+      * Some method within MyJS
+      *
+      * @param  String|Float var1
+      * @param  String|Float var2
+      * @return Int
+      */
+     this.someMethod = function(var1, var2) {
+        //return some integer
+     }
+}

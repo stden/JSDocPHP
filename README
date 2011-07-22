@@ -1,0 +1,22 @@
+JSDocPHP v0.9
+
+Thank you using JSDocPHP. This script creates a set of
+HTML-based API docs for your JavaScript files. You can
+parse one JS file or multiple files from within a folder.
+Simply issue the following command:
+
+'php jsdoc.php myjavascript.js'
+
+OR
+
+'php jsdoc.php myjavascriptfolder'
+
+It will create the API docs in a folder called 'docs'.
+Optionally, you can pass an output folder to it as well:
+
+'php jsdoc.php myjavascriptfolder mydocs'
+
+Within your JavaScript code, you can simply use standard
+PHP-style docblocks with the usual tags (@param, @return,
+etc.) to comment above your prototypes, functions and
+methods. For an example, view the included EXAMPLE.TXT file.
